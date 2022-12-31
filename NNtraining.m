@@ -5,7 +5,7 @@ RawData = [];
 % Benign training examples
 for i = 0:10000,
   step = i * 76;
-  ithExample = dlmread("C:/Users/namjo/OneDrive/Documents/Namjote.S.Dulay/ML/DataSets/IDS/Training Data/Friday-02-03-2018_TrafficForML_CICFlowMeter.csv", "", [step,0,step,78]);
+  ithExample = dlmread("C:/YourFilePath/Day-00-00-2018_TrafficForML_CICFlowMeter.csv", "", [step,0,step,78]);
   RawData = [ithExample; RawData];
 
   if (i == 0),
